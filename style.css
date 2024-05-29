@@ -1,5 +1,18 @@
-body{
-    background-color: aliceblue;
-    flex-direction: column;
-    background-color: aquamarine;
+body {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    display: inline-block;
+}
+
+.imagem-com-sombra {
+    width: 200px;
+    height: auto;
+    box-shadow: 0px 0px 10px 5px rgba(255, 165, 0, 0.5); 
 }
